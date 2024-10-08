@@ -10,6 +10,6 @@ app.get('/test', (req, res) => {
 });
 
 // Inicia o servidor
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`API rodando em http://localhost:${port}`);
 });
